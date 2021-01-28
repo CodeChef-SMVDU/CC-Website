@@ -2,7 +2,7 @@
      <div id="header">
     <b-navbar toggleable="lg" :sticky="sticky">
      <b-navbar-toggle target="nav-collapse" class="hamburger"></b-navbar-toggle>
-      <b-navbar-brand href="#" id="navbar-brand"><img src="@/assets/codechefsmvdulogo.png" height="auto" width="125px"></b-navbar-brand>
+      <b-navbar-brand href="#" id="navbar-brand"><img src="@/assets/codechef/codechef.png" height="auto" width="125px"></b-navbar-brand>
 
 
       <b-collapse id="nav-collapse" is-nav class="nav-shift">

@@ -10,6 +10,7 @@
                     </div>
                     <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8" data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >
+    <br><br>
                         <h1>CodeChef SMVDU Chapter</h1>
                         <p class="bold">
                             <br>
