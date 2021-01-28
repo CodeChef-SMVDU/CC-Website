@@ -2,7 +2,8 @@
     <div id="home">
         <div>
             <div class="logo" data-aos="fade" data-aos-delay="50"
-    data-aos-duration="1000" ><img src="@/assets/home.svg"></div>
+    data-aos-duration="1000" ><img src="@/assets/thinking.svg" id="hero-svg"></div>
+    <br>
                 <div class="social">
                     <ul>
                       <li><a href="https://www.linkedin.com/groups/12483057/" target="_blank"><i class="fab fa-linkedin fab_link"></i></a></li>
@@ -84,6 +85,11 @@ export default {
 .logo{
     text-align: center;
 }
+#hero-svg{
+  margin-top: 50px;
+  width: 50vw;
+  height: 30vh;
+}
 .caption{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -136,43 +142,9 @@ p{
 .button{
     margin: 5px 5px 5px 5px;
 }
-
-#devfolio-apply-now {
-    -ms-flex-align: center;
-    -webkit-box-align: center;
-    align-items: center;
-    background-color: #3770FF;
-    border-radius: 3px;
-    border: none;
-    color: #FFFFFF;
-    cursor: pointer;
-    /* display: -ms-flexbox;
-    display: -webkit-box; */
-    /* display: flex; */
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-    font-size: 18px;
-    font-weight: 600;
-    padding: 12px 20px;
-    text-align: center;
-    text-transform: lowercase;
-}
-
-#devfolio-apply-now:not([disabled]) {
-    cursor: pointer;
-}
-
-#devfolio-apply-now:hover {
-    background-color: #2954BF !important;
-}
-
 a:active, a:hover{
     text-decoration: none;
 }
-img{
-    width: 100%;
-  height: 450px;
-}
-
 .cal{
     font-size: 30px;
     color: #DED374 ;
