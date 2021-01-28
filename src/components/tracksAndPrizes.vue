@@ -1,16 +1,14 @@
 <template>
     <div class="container">
         <div class="tracks" id="tracks">
-            <h3>Tracks</h3>
+            <h3>Domains</h3>
 
             <div class="row" data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >
                 <div class="col-sm">
-                    <div class="title">Healthcare</div>
+                    <div class="title">Technical</div>
                     <div class="desc">
-                        This track is about how technology can help the people of the healthcare department. Here is
-your perfect chance to appreciate and support those who have kept their own well-being as
-secondary, and prioritised working day-and-night for us. 
+       Here at CodeChef-SMVDU we love to make stuff that makes life easier and take great pride in our tech team that converts these mere ideas into working and usable implementations.
                     </div>
                 </div>
                 <div class="col-sm">
@@ -24,11 +22,9 @@ secondary, and prioritised working day-and-night for us.
                     <img src="@/assets/edu.png" class="img-thumbnail">
                 </div>
                 <div class="col-sm">
-                    <div class="title">Education</div>
+                    <div class="title">Management</div>
                     <div class="desc">
-                        This track is about how knowledge about technology can change various dimensions of life and
-provide each individual an opportunity to grow and let others grow with them . 
-
+                       The cornerstone of CodeChef-SMVDU's most successful events and workshops, our management domain makes sure each of our events outperforms the previous one.
                     </div>
                 </div>
             </div>
@@ -36,9 +32,8 @@ provide each individual an opportunity to grow and let others grow with them .
             <div class="row" data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >
                 <div class="col-sm">
-                    <div class="title">Augmented Reality</div>
-                    <div class="desc">
-                        Augmented reality (AR) adds digital elements to a live view often by using the camera on a smartphone.
+                    <div class="title">Competitive Coding</div>
+                    <div class="desc">Our Cc domain boasts of great problem solving and analytical skills and always makes sure it keeps raising the bar consistently to outperform themselves.
                     </div>
                 </div>
                 <div class="col-sm">
@@ -52,213 +47,23 @@ provide each individual an opportunity to grow and let others grow with them .
                     <img src="@/assets/ai.png" class="img-thumbnail">
                 </div>
                 <div class="col-sm">
-                    <div class="title">Artificial Intelligence</div>
-                    <div class="desc">
-                        Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems
-                    </div>
+                    <div class="title">Design</div>
+                    <div class="desc">From designing interactive web illustrations to graphic UI elements, our design team never fails to deliver when it comes to etching out to their imagination on a digital canvas.                    </div>
                 </div>
             </div>
 
             <div class="row" data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >
                 <div class="col-sm">
-                    <div class="title">Open Innovation</div>
+                    <div class="title">Editorial</div>
                     <div class="desc">
-                        Participants are welcomed to come up with new and practical ideas for any real world problem of
-their choosing and contribute to it . 
+                    From blogging to project documentation, from technical and web content writing to event descriptions, our editorial team does it all to perfection.
                     </div>
                 </div>
                 <div class="col-sm">
                     <img src="@/assets/open.png" class="img-thumbnail">
                 </div>
             </div>
-
-        </div>
-
-        <br><br>
-        <hr>
-        <br><br>
-
-        <div class="prizes" id="prizes" data-aos="fade" data-aos-delay="50"
-                data-aos-duration="1000" >
-            <h3>Prizes</h3>
-            <p id="prize">Hover to see more details...</p>
-<v-row>
-    <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3>1st Prize</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.first" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-
-    <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3>2nd Prize</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.second" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-
-    <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3>3rd Prize</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.third" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-    <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3><a href="https://www.echoar.xyz/" target="_blank"><img src="@/assets/echoar.png" height="30px" width="100px"></a> Prize</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.echoar" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-
-    <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3><a href="https://www.sashido.io/" target="_blank"><img src="@/assets/shashido.jpeg" height="30px" width="100px"></a> ML Challenge</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.sashido" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-
-    <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3><a href="https://matic.network/" target="_blank"><img src="@/assets/matic.svg" width="100px" height="50px"></a> Prize</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.matic" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-
-    <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3><a href="https://www.portis.io/" target="_blank"><img src="@/assets/portis.svg" height="100px" width="100px"></a> Prize</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.portis" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-    
-    <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3><a href="https://tezos.com/" target="_blank"><img src="@/assets/tezos1.png" height="70px" width="100px"></a> Prize</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.tezos" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-                <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3>Best Beginner Hackers</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.beginnerhacker" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-     <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3>Best Jugaad </h3>
-                <ul class="container">
-                    <li v-for="item in prizes.jugaad" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-         <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3>Best Hardware Hack Sponsored by Digi-Key</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.hardware" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-        <v-col
-        md="6"
-        lg="4"
-        sm="12"
-        cols="12"
-        class="pa-2"
-      >
-        <div class="prizes-card ">
-            <h3>Participants Perks</h3>
-                <ul class="container">
-                    <li v-for="item in prizes.participants" :key='item' class="prizes-list">{{item}}</li>
-                </ul>
-        </div>
-    </v-col>
-            </v-row>
         </div>
     </div>
 </template>

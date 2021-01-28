@@ -5,9 +5,6 @@
     <AppHome id="home"></AppHome>
     <br>
     <AppAbout id="about"></AppAbout>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#82CAE4" fill-opacity="1" d="M0,192L180,32L360,128L540,160L720,288L900,128L1080,224L1260,128L1440,160L1440,320L1260,320L1080,320L900,320L720,320L540,320L360,320L180,320L0,320Z"></path></svg>
-    <sponsors id="sponsors"></sponsors>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#82CAE4" fill-opacity="1" d="M0,192L180,32L360,128L540,160L720,288L900,128L1080,224L1260,128L1440,160L1440,0L1260,0L1080,0L900,0L720,0L540,0L360,0L180,0L0,0Z"></path></svg>
     <tap></tap>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#877EA0 " fill-opacity="1" d="M0,192L180,32L360,128L540,160L720,288L900,128L1080,224L1260,128L1440,160L1440,320L1260,320L1080,320L900,320L720,320L540,320L360,320L180,320L0,320Z"></path></svg>
     <faq id="faq"></faq>
@@ -30,7 +27,6 @@ import AppAbout from '@/components/AppAbout'
 import team from '@/components/team'
 import judges from '@/components/judges'
 import contact from '@/components/contact'
-import sponsors from '@/components/sponsors'
 import tap from '@/components/tracksAndPrizes'
 export default {
   components: {
@@ -42,7 +38,6 @@ export default {
     AppAbout: AppAbout,
     judges: judges,
     contact: contact,
-    sponsors: sponsors,
     tap: tap,
   }
 }
