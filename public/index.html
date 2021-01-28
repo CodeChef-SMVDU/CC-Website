@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta property="og:site_name" content="Hack The Mountains" />
+    <meta property="og:site_name" content="CodeChef-SMVDU" />
     <meta
       name="description"
-      content="Hack the Mountains is a 36-hour Virtual Hackathon. It is a platform where hackers, developers, innovators, entrepreneurs, and students can come together to create solutions to real life problems. Developers can showcase their abilities, students can increase their network, innovators can create new solutions. We invite all the young minds out there to come and showcase their skills, increase their network and have fun."
+      content="CodeChef-SMVDU is a non-commercial organisation with a goal to provide a platform for programmers and developers everywhere to meet, compete & have fun. At CodeChef-SMVDU, we believe in the words of Matt Mullenweg - “Technology is best when it brings people together”."
     />
     <meta
       name="keywords"
@@ -15,38 +15,38 @@
     />
     <meta
             property="og:title"
-            content="Hack the Mountains"
+            content="CodeChef-SMVDU"
         />
         <meta
             property="og:description"
-            content="Hack the Mountains is a 36-hour Virtual Hackathon. It is a platform where hackers, developers, innovators, entrepreneurs, and students can come together to create solutions to real life problems. Developers can showcase their abilities, students can increase their network, innovators can create new solutions."
+            content="CodeChef-SMVDU is a non-commercial organisation with a goal to provide a platform for programmers and developers everywhere to meet, compete & have fun. At CodeChef-SMVDU, we believe in the words of Matt Mullenweg - “Technology is best when it brings people together”."
         />
         <meta
             property="og:image"
-            content="https://www.hackthemountain.tech/img/logo.8c5e0711.png"
+            content=""
         />
-        <meta property="og:url" content="https://www.hackthemountain.tech/" />
+        <meta property="og:url" content="" />
         <meta property="og:type" content="website" />
 
         <meta
             property="twitter:title"
-            content="Hack the Mountains"
+            content="CodeChef-SMVDU"
         />
         <meta
             property="twitter:description"
-            content="Hack the Mountains is a 36-hour Virtual Hackathon. It is a platform where hackers, developers, innovators, entrepreneurs, and students can come together to create solutions to real life problems. Developers can showcase their abilities, students can increase their network, innovators can create new solutions."
+            content="CodeChef-SMVDU is a non-commercial organisation with a goal to provide a platform for programmers and developers everywhere to meet, compete & have fun. At CodeChef-SMVDU, we believe in the words of Matt Mullenweg - “Technology is best when it brings people together”."
         />
         <meta
             property="twitter:image"
-            content="https://www.hackthemountain.tech/img/logo.8c5e0711.png"
+            content=""
         />
-        <meta property="twitter:url" content="https://www.hackthemountain.tech/" />
+        <meta property="twitter:url" content="" />
         <meta property="twitter:type" content="website" />
 
   
 
-    <link rel="icon" href="<%= BASE_URL %>logo.png">
-    <title>Hack The Mountains | International Hackathon </title>
+    <link rel="icon" href="<%= BASE_URL %>codechefsmvdulogo.png">
+    <title>CodeChef-SMVDU</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
@@ -82,50 +82,5 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      let devfolioOptions = {
-          buttonSelector: '#devfolio-apply-now',
-          key: 'hackthemountains',
-      }
-  
-      let script = document.createElement('script');
-      script.src = "https://apply.devfolio.co";
-      document.head.append(script);
-  
-      script.onload = function () {
-          new Devfolio(devfolioOptions);
-      }
-  
-      script.onerror = function () {
-          document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function () {
-              window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-          });
-      }
-  });</script>
-      <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyDRkHMuvWQlE5IHJ24Wn8t5RpFe5NtOIRs",
-    authDomain: "hack-the-mountain.firebaseapp.com",
-    databaseURL: "https://hack-the-mountain.firebaseio.com",
-    projectId: "hack-the-mountain",
-    storageBucket: "hack-the-mountain.appspot.com",
-    messagingSenderId: "135918601406",
-    appId: "1:135918601406:web:245e0b28dc49fbfb058aef",
-    measurementId: "G-MLNCDJMWCS"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
-
   </body>
 </html>
