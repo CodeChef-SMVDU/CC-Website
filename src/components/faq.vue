@@ -6,7 +6,7 @@
     data-aos-duration="1000" >We know you have a lot of questions, so check below for some of the most common questions we’ve received.</p>
         <br>
         <p data-aos="fade" data-aos-delay="50"
-    data-aos-duration="1000" >For further questions, you may also contact us at hackthemountains@gmail.com</p>
+    data-aos-duration="1000" >For further questions, you may also contact us at <a href="mailto:codechef@smvdu.ac.in">codechef@smvdu.ac.in</a></p>
         <div class="container" data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >
             <div class="row">
@@ -77,46 +77,46 @@ export default {
             tile: false,
             faq1: [
                 {
-                    name: 'What is a Hackathon?',
-                    para: 'A hackathon is a programming competition in which competitors use technology to build innovative projects within 36 hours. There will be opportunities to win cool prizes, learn from our key-note speakers, and network with our sponsors.'
+                    name: 'Sample Question?',
+                    para: 'Sample Answer to the Question'
                 },
                 {
-                    name: 'Where will it be hosted?',
-                    para: 'Hack the mountains will be hosted in October, 2020, completely virtually. All you need is to create a Slack account to communicate with our Hack the mountains community.'
+                    name: 'Sample Question?',
+                    para: 'Sample Answer to the Question'
                 },
                 {
-                    name: 'Are there any rules?',
-                    para: 'Attendees must abide by the MLH Code of Conduct. We want to respect each other and keep Hack the mountains a safe environment for all participants.'
+                    name: 'Sample Question?',
+                    para: 'Sample Answer to the Question'
                 },
                 {
-                    name: 'Do I have to know how to code to join?',
-                    para: 'Nope! You can learn along the way or team up with experienced programmers. Skills such as designing, business planning, and etc are all going to impact the projects in various ways!'
+                    name: 'Sample Question?',
+                    para: 'Sample Answer to the Question'
                 },
                 {
-                    name: 'Who can participate?',
-                    para: 'Everyone can participate! We encourage anyone who is interested in learning more about Hackathons, programming, and the tech industry to join Hack the Mountains!'
+                    name: 'Sample Question?',
+                    para: 'Sample Answer to the Question'
                 }
             ],
             faq2: [
                 {
-                    name: 'How much does it cost?',
-                    para: 'Hack the mountains is absolutely free to attend! You can participate for free via.'
+                    name: 'Sample Question?',
+                    para: 'Sample Answer to the Question'
                 },
                 {
-                    name: 'Can students Attend?',
-                    para: 'Yes, this is a student-held hackathon only. We would love to have your participation.'
+                    name: 'Sample Question?',
+                    para: 'Sample Answer to the Question'
                 },
                 {
-                    name: 'What are the topics and prizes of hackathon? ',
-                    para: "The topic and the prizes will be declared soon. Also once you've registered with an e-mail id , we'll notify you with a mail about further announcements."
+                    name: 'Sample Question?',
+                    para: 'Sample Answer to the Question'
                 },
                 {
-                    name: 'How many members in a team?',
-                    para: 'A team consists of 2-4 members. You can also take part solo in this hackathon'
+                    name: 'Sample Question?',
+                    para: 'Sample Answer to the Question'
                 },
                 {
-                    name: 'Can I volunteer as a mentor or judge?',
-                    para: "Yes! Hack the Mountains wouldn't be possible without our volunteers. We will open mentor and judge sign ups soon, and you can get notified when it opens by signing up for email updates above!"
+                    name: 'Sample Question?',
+                    para: 'Sample Answer to the Question'
                 }
             ]
         };
@@ -126,7 +126,7 @@ export default {
 
 <style scoped>
 .faq{
-    background-color: #877EA0 ;
+    background-color: #a6f25a ;
     text-align: center;
     color: white;
     font-family: 'Montserrat', sans-serif;

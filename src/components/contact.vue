@@ -4,12 +4,7 @@
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >
             <h3>Contact Us</h3>
-            <p> The support team is here to help you. Register your queries in this form or mail us at <a href="mailto:hackthemountains@gmail.com">hackthemountains@gmail.com</a></p>
-                  <p class="register-mentor">
-                            Share your Knowledge to participants? Register as
-                            a
-                            <a href="https://forms.gle/EzLwHxQQBRFNxBRZ6">Speaker</a>!
-                  </p>
+            <p> The team is here to help you. Register your queries in this form or mail us at <a href="mailto:codechef@smvdu.ac.in">codechef@smvdu.ac.in</a></p>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >
@@ -80,7 +75,7 @@ export default {
         this.notsubmitted = false;
         console.log("submit");
         this.$http.post(
-          "https://hack-the-mountain.firebaseio.com/hackathon.json",
+          "https://cc-website-2fd4d-default-rtdb.firebaseio.com/contact.json",
           this.user
         );
         this.user.email = null;
