@@ -5,11 +5,12 @@
     data-aos-duration="1000" ><img src="@/assets/home.svg"></div>
                 <div class="social">
                     <ul>
-                      <li><a href="https://www.linkedin.com/company/hack-the-mountain-s/?viewAsMember=true" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                      <li><a href="https://www.youtube.com/channel/UCws_V5zg2Kk7DZt7MAeEoxA" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
-                      <li><a href="https://twitter.com/HackMountains" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                      <li><a href="https://www.instagram.com/hack_the_mountains/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                      <li><a href="https://www.facebook.com/Hack-The-Mountains-107148594421205" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                      <li><a href="https://www.linkedin.com/groups/12483057/" target="_blank"><i class="fab fa-linkedin fab_link"></i></a></li>
+                      <!-- <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square"></i></a></li> -->
+                      <!-- <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
+                      <li><a href="https://discord.gg/YRHQbpsFUm" target="_blank"><i class="fab fa-discord fab_dis"></i></a>
+                      <li><a href="https://www.instagram.com/smvdu_cc/" target="_blank"><i class="fab fa-instagram fab_insta"></i></a></li>
+                      <li><a href="https://www.facebook.com/CodeChefSMVDUChapter" target="_blank"><i class="fab fa-facebook fab_face"></i></a></li>
                     </ul>
                 </div>
             <div class="caption" data-aos="fade" data-aos-delay="45"
@@ -215,8 +216,20 @@ i{
   transition: 0.3s ease;
   cursor: pointer;
 }
-.fab:hover{
-  color: red;
+.fab_link:hover{
+  color: #0e76a8;
+  transition: 0.3s ease;
+}
+.fab_insta:hover{
+  color: #8a3ab9 ;
+  transition: 0.3s ease;
+}
+.fab_face:hover{
+  color: #4267B2;
+  transition: 0.3s ease;
+}
+.fab_dis:hover{
+  color: #7289d9;
   transition: 0.3s ease;
 }
 ul {
