@@ -1,9 +1,8 @@
 <template>
      <div id="header">
     <b-navbar toggleable="lg" :sticky="sticky">
-      <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/apac-2021/events?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=gray" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-gray.svg" alt="Major League Hacking 2021 Hackathon Season" style="width:100%"></a>
      <b-navbar-toggle target="nav-collapse" class="hamburger"></b-navbar-toggle>
-      <b-navbar-brand href="#" id="navbar-brand"><img src="@/assets/logo.png" height="auto" width="125px"></b-navbar-brand>
+      <b-navbar-brand href="#" id="navbar-brand"><img src="@/assets/codechefsmvdulogo.png" height="auto" width="125px"></b-navbar-brand>
 
 
       <b-collapse id="nav-collapse" is-nav class="nav-shift">
@@ -12,12 +11,9 @@
           <b-navbar-nav>
             <b-nav-item href="#home" class="animate__animated animate__backInDown">Home</b-nav-item>
             <b-nav-item href="#about" class="animate__animated animate__backInDown">About</b-nav-item>
-            <b-nav-item href="#sponsors" class="animate__animated animate__backInDown">Sponsors</b-nav-item>
-            <b-nav-item href="#tracks" class="animate__animated animate__backInDown">Tracks</b-nav-item>
-            <b-nav-item href="#prizes" class="animate__animated animate__backInDown">Prizes</b-nav-item>
-            <b-nav-item href="#faq" class="animate__animated animate__backInDown">FAQ</b-nav-item>
+            <b-nav-item href="#judges" class="animate__animated animate__backInDown">Events</b-nav-item>
             <b-nav-item href="#team" class="animate__animated animate__backInDown">Team</b-nav-item>
-            <b-nav-item href="#judges" class="animate__animated animate__backInDown">Schedule</b-nav-item>
+            <b-nav-item href="#faq" class="animate__animated animate__backInDown">FAQ</b-nav-item>
           </b-navbar-nav>
         </b-navbar-nav>
       </b-collapse>
