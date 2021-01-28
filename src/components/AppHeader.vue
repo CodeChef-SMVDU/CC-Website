@@ -46,7 +46,13 @@ export default {
   z-index: 3000;
 }
 #navbar-brand {
-  font-size: 20px;
+display:block;
+max-width:100px;
+min-width:60px;
+position:fixed;
+top:0;
+width:10%;
+z-index:10000
 }
 
 .nav-item{
