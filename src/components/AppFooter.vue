@@ -24,9 +24,9 @@
                                     >Facebook</a
                                 >
                                 for the latest updates! <br>
-                                Also don't forget to join our Discord Channel 
+                                Also don't forget to join our  
                                 <a href="https://discord.gg/YRHQbpsFUm" target="_blank"
-                                    >Discord</a
+                                    >Discord Channel</a
                                 >
                             </p>
                     </div>

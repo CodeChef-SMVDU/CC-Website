@@ -2,20 +2,20 @@
 <div class="team">
     <div class="container">
         <h3 data-aos="fade" data-aos-delay="50"
-    data-aos-duration="1000" >Team</h3>
+    data-aos-duration="1000" >Our Team</h3>
         <div class="row" data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >
 
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="judge-box">
                     <div class="judge-pic">
-                        <img src="@/assets/avinash.jpg">
+                        <img src="@/assets/codechef/abhinandan.png">
                     </div>
-                    <div class="judge-name">Avinash Koshal</div>
-                    <div class="judge-desc">Organiser</div>
+                    <div class="judge-name">Abhinandan Sharma</div>
+                    <div class="judge-desc">President</div>
                                       <span class="social-icons">
             <a
-              href="https://linkedin.com/in/avinashkoshal"
+              href="https://www.linkedin.com/in/abhinandan-sharma-672299150/"
               alt="linkedin"
               target="_blank"
               ><i class="fab fa-linkedin"></i
@@ -33,19 +33,19 @@
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="judge-box">
                     <div class="judge-pic">
-                        <img src="@/assets/mohit.jpg">
+                        <img src="@/assets/codechef/harsh.png">
                     </div>
-                    <div class="judge-name">Mohit Sharma</div>
-                    <div class="judge-desc">Co-Organiser</div>
+                    <div class="judge-name">Harsh Garg</div>
+                    <div class="judge-desc">CP Lead</div>
                            <span class="social-icons">
             <a
-              href="https://www.linkedin.com/in/mohit-sharma-9ba35aa0/"
+              href="https://www.linkedin.com/in/harshgarg15/"
               alt="linkedin"
               target="_blank"
               ><i class="fab fa-linkedin"></i
             ></a>
             <a
-              href="https://twitter.com/mohitsharma_09"
+              href="https://twitter.com/"
               alt="github"
               target="_blank"
               ><i class="fab fa-twitter-square"></i></a>
@@ -59,10 +59,10 @@
                         <img src="@/assets/hrishikesh.jpg">
                     </div>
                     <div class="judge-name">Hrishikesh</div>
-                    <div class="judge-desc">Coordinator</div>
+                    <div class="judge-desc">Technical Head</div>
                                       <span class="social-icons">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/hrishikesh-agarwal-794801195/"
               alt="linkedin"
               target="_blank"
               ><i class="fab fa-linkedin"></i
@@ -79,13 +79,13 @@
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="judge-box">
                     <div class="judge-pic">
-                        <img src="@/assets/vinayak.jpg">
+                        <img src="@/assets/codechef/vinayak.png">
                     </div>
                     <div class="judge-name">Vinayak Sharma</div>
-                    <div class="judge-desc">Technical Team</div>
+                    <div class="judge-desc">Media/Outreach Head</div>
                                       <span class="social-icons">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/vinayak-sharma-141096193/"
               alt="linkedin"
               target="_blank"
               ><i class="fab fa-linkedin"></i
@@ -102,157 +102,19 @@
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="judge-box">
                     <div class="judge-pic">
-                        <img src="@/assets/ankit.jpg">
+                        <img src="@/assets/codechef/abhinaba.png">
                     </div>
-                    <div class="judge-name">Ankit Kapoor</div>
-                    <div class="judge-desc">Graphic Designer</div>
+                    <div class="judge-name">Abhinaba Pal</div>
+                    <div class="judge-desc">Event Lead</div>
                                       <span class="social-icons">
             <a
-              href="http://linkedin.com/in/ankit-kapoor-2ab875148"
+              href="https://www.linkedin.com/in/abhinaba-pal-28a2a916b/"
               alt="linkedin"
               target="_blank"
               ><i class="fab fa-linkedin"></i
             ></a>
             <a
-              href="https://twitter.com/Ankit_Kapoor47"
-              alt="github"
-              target="_blank"
-              ><i class="fab fa-twitter-square"></i></a>
-          </span>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="judge-box">
-                    <div class="judge-pic">
-                        <img src="@/assets/anmol.jpg">
-                    </div>
-                    <div class="judge-name">Anmol Reshi</div>
-                    <div class="judge-desc">Community Team</div>
-                                      <span class="social-icons">
-            <a
-              href="https://www.linkedin.com/in/anmolreshi/"
-              alt="linkedin"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              href="https://twitter.com/AnmolreshiAnmol"
-              alt="github"
-              target="_blank"
-              ><i class="fab fa-twitter-square"></i></a>
-          </span>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="judge-box">
-                    <div class="judge-pic">
-                        <img src="@/assets/navya.jpg">
-                    </div>
-                    <div class="judge-name">Navya Jyoti</div>
-                    <div class="judge-desc">Outreach Team</div>
-                                      <span class="social-icons">
-            <a
-              href="https://linkedin.com/in/navya-jyoti"
-              alt="linkedin"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              href="https://twitter.com/Navya24022001"
-              alt="github"
-              target="_blank"
-              ><i class="fab fa-twitter-square"></i></a>
-          </span>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="judge-box">
-                    <div class="judge-pic">
-                        <img src="@/assets/deepika.jpg">
-                    </div>
-                    <div class="judge-name">Deepika Jaiswal</div>
-                    <div class="judge-desc">Outreach Team</div>
-                                      <span class="social-icons">
-            <a
-              href="https://www.linkedin.com/in/deepikajaiswal"
-              alt="linkedin"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              href="https://twitter.com/DeepikaJaiswa19"
-              alt="github"
-              target="_blank"
-              ><i class="fab fa-twitter-square"></i></a>
-          </span>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="judge-box">
-                    <div class="judge-pic">
-                        <img src="@/assets/harsh.jpg">
-                    </div>
-                    <div class="judge-name"><h6>Harsh Vardhan Kanodia</h6></div>
-                    <div class="judge-desc">Graphic Designer</div>
-                                      <span class="social-icons">
-            <a
-              href="https://www.linkedin.com/in/harsh-vardhan-9a5528191/"
-              alt="linkedin"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              href="https://twitter.com/KanodiaVardhan"
-              alt="github"
-              target="_blank"
-              ><i class="fab fa-twitter-square"></i></a>
-          </span>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="judge-box">
-                    <div class="judge-pic">
-                        <img src="@/assets/aiswarya.jpg">
-                    </div>
-                    <div class="judge-name">Aiswarya Raju</div>
-                    <div class="judge-desc">Community Team</div>
-                                      <span class="social-icons">
-            <a
-              href="http://www.linkedin.com/in/aiswarya-raju"
-              alt="linkedin"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              href="http://www.twitter.com/aiswaryaraju22"
-              alt="github"
-              target="_blank"
-              ><i class="fab fa-twitter-square"></i></a>
-          </span>
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="judge-box">
-                    <div class="judge-pic">
-                        <img src="@/assets/vinu.jpeg">
-                    </div>
-                    <div class="judge-name"><h6>Vinu Balagopal A P</h6></div>
-                    <div class="judge-desc">Outreach Team</div>
-                                      <span class="social-icons">
-            <a
-              href="https://www.linkedin.com/in/vinubalagopalap/"
-              alt="linkedin"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a
-              href="https://twitter.com/balagopalvinu"
+              href="https://twitter.com/"
               alt="github"
               target="_blank"
               ><i class="fab fa-twitter-square"></i></a>
