@@ -23,7 +23,7 @@ p{
     color: white;
 }
 #j{
-    color: black;
+    color: white;
 }
 #m{
     color: black;
