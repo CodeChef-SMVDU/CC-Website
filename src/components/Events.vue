@@ -3,7 +3,7 @@
     <div class="container" data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >
          <h3><span id="j">Events</span></h3>
-            <!-- <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1BgzX5-wqEoIxU_KSWu1seochRqVNOWq3-Z6XBgRqWTo&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe> -->
+            <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1BgzX5-wqEoIxU_KSWu1seochRqVNOWq3-Z6XBgRqWTo&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
        <div class="team">
     </div>
     </div>
