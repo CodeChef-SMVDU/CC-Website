@@ -23,7 +23,7 @@ p{
     color: white;
 }
 #j{
-    color: black;
+    color: white;
 }
 #m{
     color: black;
@@ -47,6 +47,7 @@ h3{
     padding: 10px;
     text-align: center;
     font-size: 2.5em;
+    color: white;
 }
 .judge-box {
     text-align: center;
