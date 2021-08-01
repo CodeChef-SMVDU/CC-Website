@@ -6,7 +6,7 @@
         <div class="row" data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >
 
-            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="judge-box">
                     <div class="judge-pic">
                         <img src="@/assets/codechef/abhinandan.png">
@@ -27,6 +27,29 @@
               ><i class="fab fa-twitter-square"></i></a>
           </span>
                     
+                </div>
+            </div> -->
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="judge-box">
+                    <div class="judge-pic">
+                        <img src="@/assets/codechef/abhinaba.png">
+                    </div>
+                    <div class="judge-name">Abhinaba Pal</div>
+                    <div class="judge-desc">President</div>
+                                      <span class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/abhinaba-pal-28a2a916b/"
+              alt="linkedin"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://twitter.com/"
+              alt="github"
+              target="_blank"
+              ><i class="fab fa-twitter-square"></i></a>
+          </span>
                 </div>
             </div>
 
@@ -56,19 +79,19 @@
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="judge-box">
                     <div class="judge-pic">
-                        <img src="@/assets/hrishikesh.jpg">
+                        <img src="@/assets/codechef/prabhav.jpg">
                     </div>
-                    <div class="judge-name">Hrishikesh</div>
-                    <div class="judge-desc">Technical Head</div>
+                    <div class="judge-name">Prabhav Dogra</div>
+                    <div class="judge-desc">Event Head</div>
                                       <span class="social-icons">
             <a
-              href="https://www.linkedin.com/in/hrishikesh-agarwal-794801195/"
+              href="https://www.linkedin.com/in/prabhav-dogra-659365187/"
               alt="linkedin"
               target="_blank"
               ><i class="fab fa-linkedin"></i
             ></a>
             <a
-              href="https://twitter.com/CodeTheorem2"
+              href="https://twitter.com/DograPrabhav"
               alt="github"
               target="_blank"
               ><i class="fab fa-twitter-square"></i></a>
@@ -99,32 +122,40 @@
                 </div>
             </div>
 
+            
+
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="container">
+        <h3 data-aos="fade" data-aos-delay="50"
+    data-aos-duration="1000" >volunteer</h3>
+        <div class="row" data-aos="fade" data-aos-delay="50"
+    data-aos-duration="1000" >
             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="judge-box">
                     <div class="judge-pic">
-                        <img src="@/assets/codechef/abhinaba.png">
+                        <img src="@/assets/hrishikesh.jpg">
                     </div>
-                    <div class="judge-name">Abhinaba Pal</div>
-                    <div class="judge-desc">Event Lead</div>
+                    <div class="judge-name">Hrishikesh</div>
+                    <div class="judge-desc">Technical Head</div>
                                       <span class="social-icons">
             <a
-              href="https://www.linkedin.com/in/abhinaba-pal-28a2a916b/"
+              href="https://www.linkedin.com/in/hrishikesh-agarwal-794801195/"
               alt="linkedin"
               target="_blank"
               ><i class="fab fa-linkedin"></i
             ></a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/CodeTheorem2"
               alt="github"
               target="_blank"
               ><i class="fab fa-twitter-square"></i></a>
           </span>
                 </div>
             </div>
-
         </div>
     </div>
-    <br><br><br><br>
 </div>
 </template>
 
