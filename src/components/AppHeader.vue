@@ -2,8 +2,9 @@
      <div id="header">
     <b-navbar toggleable="lg" :sticky="sticky">
      <b-navbar-toggle target="nav-collapse" class="hamburger"></b-navbar-toggle>
-      <b-navbar-brand href="#" id="navbar-brand"><img src="@/assets/codechef/codechef.png" height="auto" width="125px"></b-navbar-brand>
-
+      <!-- <b-navbar-brand href="#" id="navbar-brand">
+        <img id="logo" src="@/assets/codechef/codechef.png" height="auto" width="50px">
+      </b-navbar-brand> -->
 
       <b-collapse id="nav-collapse" is-nav class="nav-shift">
         <!-- Right aligned nav items -->
@@ -13,7 +14,6 @@
             <b-nav-item href="#about" class="animate__animated animate__backInDown">About</b-nav-item>
             <b-nav-item href="#events" class="animate__animated animate__backInDown">Events</b-nav-item>
             <b-nav-item href="#team" class="animate__animated animate__backInDown">Team</b-nav-item>
-            <b-nav-item href="#faq" class="animate__animated animate__backInDown">FAQ</b-nav-item>
           </b-navbar-nav>
         </b-navbar-nav>
       </b-collapse>
@@ -47,14 +47,16 @@ export default {
 }
 #navbar-brand {
 display:block;
-max-width:100px;
-min-width:60px;
+max-width:50px;
+min-width:50px;
 position:fixed;
 top:0;
 width:10%;
 z-index:10000
 }
-
+#logo {
+  float: topright;
+}
 .nav-item{
     margin-right: 20px;
 }

@@ -2,7 +2,7 @@
     <div id="home">
         <div>
             <div class="logo" data-aos="fade" data-aos-delay="50"
-    data-aos-duration="1000" ><img src="@/assets/thinking.svg" id="hero-svg"></div>
+    data-aos-duration="1000" ><img id="hero-svg" src="@/assets/codechef/codechef.png" height="auto" width="200"></div>
     <br>
                 <div class="social">
                     <ul>
@@ -87,7 +87,7 @@ export default {
 }
 #hero-svg{
   margin-top: 50px;
-  width: 50vw;
+  width: 30vh;
   height: 30vh;
 }
 .caption{
