@@ -7,7 +7,7 @@
                 <div class="social">
                     <ul>
                       <li><a href="https://www.linkedin.com/groups/12483057/" target="_blank"><i class="fab fa-linkedin fab_link"></i></a></li>
-                      <!-- <li><a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube-square"></i></a></li> -->
+                      <li><a href="https://www.youtube.com/channel/UCXIWwKmojZpBJH0LgU-MWVA" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
                       <!-- <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li> -->
                       <li><a href="https://discord.gg/YRHQbpsFUm" target="_blank"><i class="fab fa-discord fab_dis"></i></a>
                       <li><a href="https://www.instagram.com/smvdu_cc/" target="_blank"><i class="fab fa-instagram fab_insta"></i></a></li>
@@ -195,6 +195,9 @@ i{
 .fab_insta:hover{
   color: #8a3ab9 ;
   transition: 0.3s ease;
+}
+.fa-youtube-square:hover{
+  color:#FF0000;
 }
 .fab_face:hover{
   color: #4267B2;
