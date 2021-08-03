@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="about">
     <br>
     <h1 data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >About Us</h1>
@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style scoped>
+.about{
+    background-color: #a6f25a;
+    color: #fff;
+}
 
 h1{
     text-align: center;
