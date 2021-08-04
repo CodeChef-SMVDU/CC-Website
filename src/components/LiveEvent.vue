@@ -6,7 +6,7 @@
         <b-col xs="12" sm="12" md="6">
           <div  data-aos="fade" data-aos-delay="50" data-aos-duration="1000" >
             <br>
-            <img class="event" src="@/assets/cyber.png"/>
+            <img class="event" src="@/assets/cyber1.png"/>
           </div>
         </b-col>
         <b-col xs="12" sm="12" md="6">
@@ -16,7 +16,7 @@
           <div class="register">
             <Countdown end="August 7, 2021 16:30"></Countdown>
             <br/>
-            <b-button size="lg" class="btn" href="https://forms.gle/kb4Vt9BwcDzwbB4W7" variant="primary">Register</b-button>
+            <b-button size="lg" class="btn" href="https://bit.ly/smvducybersecurity" variant="primary">Register</b-button>
           </div>
           </div>
         </b-col>
