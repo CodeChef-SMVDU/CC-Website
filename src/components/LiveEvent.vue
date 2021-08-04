@@ -2,25 +2,15 @@
   <div class="container">
     <div class="tracks" id="tracks">
       <h1>On-Going Event</h1>
-      <b-row>
-        <b-col xs="12" sm="12" md="6">
-          <div  data-aos="fade" data-aos-delay="50" data-aos-duration="1000" >
-            <br>
-            <img class="event" src="@/assets/cyber1.png"/>
-          </div>
-        </b-col>
-        <b-col xs="12" sm="12" md="6">
-          <br/>
-          <br/>
-          <div class="about-card">
-          <div class="register">
-            <Countdown id="countdown" end="August 7, 2021 16:30"></Countdown>
-            <br/>
-            <b-button size="lg" class="btn" href="https://bit.ly/smvducybersecurity" variant="primary">Register</b-button>
-          </div>
-          </div>
-        </b-col>
-      </b-row>
+      <div class="event-card">
+        <div class="counter">
+          <Countdown id="countdown" end="August 7, 2021 16:30"></Countdown>
+        </div>
+        <img class="event" src="@/assets/cyber1.png"/>
+        <div class="register">
+          <b-button size="lg" class="btn" href="https://bit.ly/smvducybersecurity" variant="primary">Register</b-button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -34,29 +24,33 @@ export default {
 </script>
 
 <style scoped>
+.counter {
+  text-align: center;
+  margin-bottom: 15px;
+}
 .register {
+  margin-top: 15px;
   text-align: center;
 }
 .event {
     max-width:100%;
     max-height:100%;
 }
-.about-card{
+.event-card{
     box-shadow: 5px 5px  15px -6px rgba(0, 0, 0, 0.75);
     border-radius: 20px 20px 20px 20px;
     align-content: center;
-    width: 320px;
-  margin: 0 auto;
+    margin: 0 auto;
     top: 10%;
-    padding: 10%;
-    height: 200px;
+    width: 78%;
+    padding: 5%;
     position: relative;
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
     transition: box-shadow 1s ease;
     background-color: white;
 }
-.about-card:hover{
+.event-card:hover{
     box-shadow: 10px 10px 54px -6px rgba(0, 0, 0, 0.75);
 }
 h1{

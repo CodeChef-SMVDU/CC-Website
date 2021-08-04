@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .about{
-    background-color: #a6f25a;
+    background-color: #f59d45;
     color: #fff;
 }
 
