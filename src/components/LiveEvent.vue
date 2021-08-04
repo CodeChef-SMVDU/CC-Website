@@ -14,7 +14,7 @@
           <br/>
           <div class="about-card">
           <div class="register">
-            <Countdown end="August 7, 2021 16:30"></Countdown>
+            <Countdown id="countdown" end="August 7, 2021 16:30"></Countdown>
             <br/>
             <b-button size="lg" class="btn" href="https://bit.ly/smvducybersecurity" variant="primary">Register</b-button>
           </div>
@@ -45,10 +45,11 @@ export default {
     box-shadow: 5px 5px  15px -6px rgba(0, 0, 0, 0.75);
     border-radius: 20px 20px 20px 20px;
     align-content: center;
-    width: 90%;
+    width: 320px;
+  margin: 0 auto;
     top: 10%;
     padding: 10%;
-    height: 250px;
+    height: 200px;
     position: relative;
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
