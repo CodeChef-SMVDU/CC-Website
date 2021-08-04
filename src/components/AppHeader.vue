@@ -11,8 +11,10 @@
         <b-navbar-nav>
           <b-navbar-nav>
             <b-nav-item href="#home" class="animate__animated animate__backInDown">Home</b-nav-item>
+            <b-nav-item href="#event" class="animate__animated animate__backInDown">Register</b-nav-item>
+
             <b-nav-item href="#about" class="animate__animated animate__backInDown">About</b-nav-item>
-            <b-nav-item href="#events" class="animate__animated animate__backInDown">Events</b-nav-item>
+            <b-nav-item href="#events" class="animate__animated animate__backInDown">Past Events</b-nav-item>
             <b-nav-item href="#team" class="animate__animated animate__backInDown">Team</b-nav-item>
           </b-navbar-nav>
         </b-navbar-nav>
