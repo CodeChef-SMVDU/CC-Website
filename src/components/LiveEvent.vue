@@ -4,11 +4,11 @@
       <h1>On-Going Event</h1>
       <div class="event-card">
         <div class="counter">
-          <Countdown id="countdown" end="August 7, 2021 16:30"></Countdown>
+          <Countdown id="countdown" end="October 7, 2021 16:00"></Countdown>
         </div>
-        <img class="event" src="@/assets/cyber1.png"/>
+        <img class="event" src="@/assets/image.jpeg"/>
         <div class="register">
-          <b-button size="lg" class="btn" href="https://bit.ly/smvducybersecurity" variant="primary">Register</b-button>
+          <b-button size="lg" class="btn" href="https://forms.gle/i9qk264Hc6a8HoT38" variant="primary">Feedback form</b-button>
         </div>
       </div>
     </div>
