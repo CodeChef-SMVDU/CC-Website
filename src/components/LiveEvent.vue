@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="tracks" id="tracks">
-      <h1>On-Going Event</h1>
+      <h1>Past Event</h1>
       <div class="event-card">
         <div class="counter">
           <Countdown id="countdown" end="October 7, 2021 16:00"></Countdown>
