@@ -16,6 +16,9 @@
             <b-nav-item href="#about" class="animate__animated animate__backInDown">About</b-nav-item>
             <b-nav-item href="#events" class="animate__animated animate__backInDown">Past Events</b-nav-item>
             <b-nav-item href="#team" class="animate__animated animate__backInDown">Team</b-nav-item>
+
+            <b-nav-item @click="darkThemeSwitch" class="animate__animated animate__backInDown"><i id="theme_img_moon" class="far fa-moon"></i></b-nav-item>
+            <b-nav-item @click="darkThemeSwitch" class="animate__animated animate__backInDown"><i id="theme_img_sun" class="fas fa-sun"></i></b-nav-item>
           </b-navbar-nav>
         </b-navbar-nav>
       </b-collapse>
@@ -24,20 +27,50 @@
 </template>
 
 <script>
+
+import themeChanger from "../util/theme.js";
+
 export default {
+
+  props: ['theme'],
  name: 'appheader',
  data() {
    return {
-     sticky: true
+     themeChanger: null,
+     sticky: true,
    };
- }
+ },
+ methods: {
+      darkThemeSwitch: function() {
+        var th_img_m = document.getElementById('theme_img_moon');
+        var th_img_s = document.getElementById('theme_img_sun');
+
+        if(th_img_m.style.display !== 'none'){
+          th_img_m.style.display = 'none';
+          th_img_s.style.display = 'initial';
+        }else{
+          th_img_s.style.display = 'none'
+          th_img_m.style.display = 'initial';
+        }
+        
+        this.themeChanger._darkThemeSwitch();
+      },
+    },
+    created: function() {
+      this.themeChanger = new themeChanger();
+    },
+ 
 }
 </script>
 
 <style scoped>
+
+#theme_img_moon {
+  display: none;
+}
+
 #header {
-  background-color: #f8f9fa;
-  color: black;
+  
   font-size: 18px;
   font-weight: bolder;
   font-family: 'Montserrat', sans-serif;

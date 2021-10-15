@@ -34,7 +34,9 @@ import Events from '@/components/Events'
 // import sponsors from '@/components/sponsors'
 // import tap from '@/components/tracksAndPrizes'
 import tap from '@/components/tracksAndPrizes'
-export default {
+
+export default { 
+  
   components: {
     AppHeader: AppHeader,
     AppFooter: AppFooter,
