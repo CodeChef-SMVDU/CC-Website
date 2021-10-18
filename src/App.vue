@@ -1,7 +1,6 @@
 <template>
   <div>
     <AppHeader></AppHeader>
-    <br><br>
     <AppHome id="home"></AppHome>
     <br>
     <LiveEvent id="event"/>

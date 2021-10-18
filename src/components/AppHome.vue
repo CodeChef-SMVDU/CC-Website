@@ -14,7 +14,7 @@
                       <li><a href="https://www.facebook.com/CodeChefSMVDUChapter" target="_blank"><i class="fab fa-facebook fab_face"></i></a></li>
                     </ul>
                 </div>
-            <div class="caption" data-aos="fade" data-aos-delay="45"
+            <div class="caption top_intro" data-aos="fade" data-aos-delay="45"
     data-aos-duration="1000" >
                 <h1>CodeChef-SMVDU</h1>
                 
@@ -82,6 +82,16 @@ export default {
 
 
 <style scoped>
+
+#home {
+  padding-top: 2rem;
+  margin-top: 6vh;   /* just because nav is sticky and has some problem with proper positioning and styling */
+}
+
+.top_intro {
+  padding-top: 1.5rem;
+  min-height: 35vh;
+}
 .logo{
     text-align: center;
 }

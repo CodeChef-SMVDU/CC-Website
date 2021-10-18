@@ -9,7 +9,6 @@
       <b-collapse id="nav-collapse" is-nav class="nav-shift">
         <!-- Right aligned nav items -->
         <b-navbar-nav>
-          <b-navbar-nav>
             <b-nav-item href="#home" class="animate__animated animate__backInDown">Home</b-nav-item>
             <b-nav-item href="#event" class="animate__animated animate__backInDown">Register</b-nav-item>
 
@@ -20,7 +19,6 @@
             <b-nav-item @click="darkThemeSwitch" class="animate__animated animate__backInDown"><i id="theme_img_moon" class="far fa-moon"></i></b-nav-item>
             <b-nav-item @click="darkThemeSwitch" class="animate__animated animate__backInDown"><i id="theme_img_sun" class="fas fa-sun"></i></b-nav-item>
           </b-navbar-nav>
-        </b-navbar-nav>
       </b-collapse>
     </b-navbar>
   </div>
@@ -64,13 +62,22 @@ export default {
 </script>
 
 <style scoped>
+#header a {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header {
+  
+  min-height: 6vh;
+  /* background-color: #3f5f70; */
+  background-color: white;
+}
 
 #theme_img_moon {
   display: none;
 }
 
 #header {
-  
   font-size: 18px;
   font-weight: bolder;
   font-family: 'Montserrat', sans-serif;

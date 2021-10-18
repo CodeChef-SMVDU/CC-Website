@@ -1,6 +1,6 @@
 :root {
     --text: #ffffff;
-    --background: #1d1d23;
+    --background: #3f5f70;
 }
 body {
     background-color: var(--background) !important;
@@ -31,4 +31,16 @@ a {
 
 .team .judge-box {
     background-color: #f59d45;
+}
+
+#header, .about-card {
+    background-color: #2c4857 !important;
+}
+
+#home, .about, .judges, .footer {
+    background-color: #F19A3E;
+}
+
+.desc[data-v-1f9561d0] {
+    color: black;
 }
