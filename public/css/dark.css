@@ -1,6 +1,6 @@
 :root {
-    --text: #ffffff;
-    --background: #3f5f70;
+    --text: #ffffffab;
+    --background: #121212;
 }
 body {
     background-color: var(--background) !important;
@@ -42,5 +42,5 @@ a {
 }
 
 .desc[data-v-1f9561d0] {
-    color: black;
+    color: var(--text) !important;
 }
