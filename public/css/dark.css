@@ -34,7 +34,8 @@ a {
 }
 
 #header, .about-card {
-    background-color: #2c4857 !important;
+    background-color: var(--background) !important;
+    /* background-color: #2c4857 !important; */
 }
 
 #home, .about, .judges, .footer {
