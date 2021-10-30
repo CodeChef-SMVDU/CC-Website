@@ -127,7 +127,7 @@
         </div>
     </div>
     <br><br><br><br>
-    <div class="container">
+    <!-- <div class="container">
         <h3 data-aos="fade" data-aos-delay="50"
     data-aos-duration="1000" >volunteer</h3>
         <div class="row" data-aos="fade" data-aos-delay="50"
@@ -155,7 +155,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 </template>
 
